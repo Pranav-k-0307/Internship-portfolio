@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">Pranav K</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <img src="Pranav.jpeg" alt="Arjun's Profile Picture" class="profile-pic">
+            <h1>Hi, I'm Pranav</h1>
+            <p>2nd year Btech student</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+<!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A passionate second-year B.Tech student who who is a tech and software enthusiast.</p>
+                    <p>When I'm not coding, you'll find me participating in many events such as hackathons and outdoor events such as football too.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Learning</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Hackathons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3>coding</h3>
+                    <div class="skill-tags">
+                        <span>C/C++</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Personal AI based Assistant</h3>
+                        <p>AI based voice assitant using Gemini 2.0 flash and Text-to-Speech.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>ML</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Please reach out to me if anything , Im also open to assisting in any research or projects</p>
+                <div class="contact-links">
+                    <a href="mailto:pranav.kp0703@gmail.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        pranav.kp0703@gmail.com
+                    </a>
+                    <a href="https://github.com/Pranav-k-0307" target="_blank" class="contact-link">
+                        <span class="contact-icon">🔗</span>
+                        GitHub Profile
+                    </a>
+                    <a href="https://www.linkedin.com/in/pranav-krishna-206417249/" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pranav Krishna P. Made with effort.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
